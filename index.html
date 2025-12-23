@@ -2,10 +2,8 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Web - Página Principal</title>
+    <title>Inicio</title>
     <style>
-        /* Reset básico */
         * {
             margin: 0;
             padding: 0;
@@ -13,25 +11,16 @@
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
+            font-family: Segoe UI, Tahoma, sans-serif;
             background: #f5f5f5;
             color: #333;
         }
 
-        /* HEADER */
         header {
             background: linear-gradient(to right, #4b79a1, #283e51);
-            color: #fff;
-            padding: 20px 0;
+            color: white;
             text-align: center;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-            letter-spacing: 1px;
+            padding: 25px 0;
         }
 
         nav ul {
@@ -39,110 +28,105 @@
             display: flex;
             justify-content: center;
             gap: 20px;
+            margin-top: 10px;
             flex-wrap: wrap;
         }
 
         nav a {
+            color: white;
             text-decoration: none;
-            color: #fff;
-            font-weight: 500;
             padding: 8px 15px;
             border-radius: 5px;
-            transition: background 0.3s, color 0.3s;
         }
 
         nav a:hover {
-            background: #fff;
+            background: white;
             color: #283e51;
         }
 
-        /* MAIN */
         main {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 40px auto;
             padding: 0 20px;
         }
 
         section {
-            background: #fff;
+            background: white;
             margin-bottom: 30px;
-            padding: 25px;
+            padding: 30px;
             border-radius: 10px;
             box-shadow: 0 8px 15px rgba(0,0,0,0.1);
-            transition: transform 0.3s;
         }
 
-        section:hover {
-            transform: translateY(-5px);
-        }
-
-        section h2 {
+        h2 {
             color: #283e51;
             margin-bottom: 15px;
-            font-size: 1.8rem;
         }
 
-        section p {
-            color: #555;
-            font-size: 1rem;
+        p {
             line-height: 1.8;
+            color: #555;
+            margin-bottom: 15px;
         }
 
-        /* FOOTER */
         footer {
+            background: #283e51;
+            color: white;
             text-align: center;
             padding: 20px;
-            background: #283e51;
-            color: #fff;
-            margin-top: 40px;
-            border-top: 2px solid #4b79a1;
-        }
-
-        footer p {
-            font-size: 0.9rem;
-        }
-
-        /* RESPONSIVE */
-        @media (max-width: 600px) {
-            nav ul {
-                flex-direction: column;
-            }
-
-            section {
-                padding: 20px;
-            }
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a Mi Web</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="about.html">Acerca de mí</a></li>
-                <li><a href="degree.html">Mi Grado</a></li>
-                <li><a href="topic.html">Sección Temática</a></li>
-                <li><a href="net.html">Red de Compañeros</a></li>
-                <li><a href="contact.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section>
-            <h2>Presentación</h2>
-            <p>Esta web forma parte de la asignatura Fundamentos de la Ingeniería Informática. Aquí podrás encontrar información sobre mi, mi grado, temas de interés, enlaces a compañeros y cómo contactarme.</p>
-        </section>
+<header>
+    <h1>Bienvenido a Mi Web</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Acerca de mí</a></li>
+            <li><a href="degree.html">Mi Grado</a></li>
+            <li><a href="topic.html">Sección Temática</a></li>
+            <li><a href="net.html">Red de Compañeros</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
 
-        <section>
-            <h2>Objetivo de la web</h2>
-            <p>El objetivo de este sitio es mostrar mis conocimientos en desarrollo web, organizar la información de manera clara y ofrecer una experiencia sencilla para el usuario.</p>
-        </section>
-    </main>
+<main>
+    <section>
+        <h2>Presentación</h2>
+        <p>
+            Esta página web forma parte de un proyecto académico de la asignatura
+            Fundamentos de la Ingeniería Informática.
+        </p>
+        <p>
+            El sitio ha sido diseñado para mostrar conocimientos básicos de desarrollo web,
+            organización de información y diseño visual utilizando HTML y CSS.
+        </p>
+    </section>
 
-    <footer>
-        <p>&copy; 2025 Daniel Hidalgo</p>
-    </footer>
+    <section>
+        <h2>Contenido del sitio</h2>
+        <p>
+            A lo largo de las diferentes secciones se puede encontrar información personal,
+            datos sobre el grado universitario, una sección temática específica, enlaces
+            a compañeros y un formulario de contacto.
+        </p>
+    </section>
+
+    <section>
+        <h2>Objetivo principal</h2>
+        <p>
+            El objetivo principal es ofrecer una web clara, estructurada y visualmente
+            atractiva que sirva como base para futuros proyectos más avanzados.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Daniel Hidalgo</p>
+</footer>
+
 </body>
 </html>
