@@ -2,68 +2,80 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Grado</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: Segoe UI, Tahoma, sans-serif; background: #f5f5f5; color: #333; }
-        header { background: linear-gradient(to right, #4b79a1, #283e51); color: white; text-align: center; padding: 25px 0; }
-        nav ul { list-style: none; display: flex; justify-content: center; gap: 20px; margin-top: 10px; flex-wrap: wrap; }
-        nav a { color: white; text-decoration: none; padding: 8px 15px; border-radius: 5px; }
-        nav a:hover { background: white; color: #283e51; }
-        main { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
-        section { background: white; margin-bottom: 30px; padding: 30px; border-radius: 10px; box-shadow: 0 8px 15px rgba(0,0,0,0.1); }
-        h2 { color: #283e51; margin-bottom: 15px; }
-        p { line-height: 1.8; color: #555; margin-bottom: 15px; }
-        footer { background: #283e51; color: white; text-align: center; padding: 20px; }
-    </style>
+    <title>Mi Grado - Ingeniería Informática UFV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>Mi Grado</h1>
+    <h1>Grado en Ingeniería Informática - UFV</h1>
     <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="about.html">Acerca de mí</a></li>
-            <li><a href="degree.html">Mi Grado</a></li>
-            <li><a href="topic.html">Sección Temática</a></li>
-            <li><a href="net.html">Red de Compañeros</a></li>
-            <li><a href="contact.html">Contacto</a></li>
-        </ul>
+        <a href="index.html">Inicio</a>
+        <a href="about.html">Acerca de mí</a>
+        <a href="degree.html">Mi Grado</a>
+        <a href="topic.html">Sección Temática</a>
+        <a href="net.html">Red</a>
+        <a href="contact.html">Contacto</a>
     </nav>
 </header>
 
 <main>
     <section>
-        <h2>Descripción del grado</h2>
+        <h2>Propósito del Grado</h2>
         <p>
-            El Grado en Ingeniería Informática proporciona una formación sólida en
-            programación, sistemas, redes y bases de datos.
+            El Grado en Ingeniería Informática de la UFV prepara a los estudiantes para
+            diseñar, desarrollar y mantener sistemas informáticos, abarcando
+            programación, redes, bases de datos y ciberseguridad. Además, fomenta
+            habilidades de trabajo en equipo, gestión de proyectos y pensamiento crítico.
         </p>
     </section>
 
     <section>
-        <h2>Asignaturas relevantes</h2>
+        <h2>Estructura del Grado</h2>
         <p>
-            Durante el grado se cursan asignaturas como programación, fundamentos de
-            redes, sistemas operativos y seguridad informática.
+            El grado se organiza en cuatro cursos académicos, combinando asignaturas teóricas,
+            prácticas y proyectos integradores. Cada curso se centra en áreas clave de la
+            informática y tecnología, garantizando un aprendizaje progresivo y completo.
         </p>
     </section>
 
     <section>
-        <h2>Competencias adquiridas</h2>
-        <p>
-            A lo largo de la formación se desarrollan competencias técnicas, capacidad de
-            resolución de problemas y pensamiento lógico.
-        </p>
-    </section>
-
-    <section>
-        <h2>Salidas profesionales</h2>
-        <p>
-            El grado permite acceder a múltiples salidas profesionales como desarrollo de
-            software, administración de sistemas o ciberseguridad.
-        </p>
+        <h2>Asignaturas del Primer Curso</h2>
+        <div class="cards-container">
+            <div class="card">
+                <h3>Administración de Sistemas Operativos I (A)</h3>
+                <p>Aprendizaje de la gestión básica de sistemas operativos y administración de usuarios.</p>
+            </div>
+            <div class="card">
+                <h3>Fundamentos de Ingeniería Informática (B)</h3>
+                <p>Introducción a la informática, programación básica, algoritmos y estructuras de datos.</p>
+                <a href="fii.html">Ver asignatura</a>
+            </div>
+            <div class="card">
+                <h3>Gestión del Conocimiento y Habilidades de la Persona (B)</h3>
+                <p>Desarrollo de habilidades personales y gestión del conocimiento en entornos profesionales.</p>
+            </div>
+            <div class="card">
+                <h3>Introducción a la Ciberseguridad (A)</h3>
+                <p>Conceptos básicos de ciberseguridad, amenazas y buenas prácticas para proteger información.</p>
+            </div>
+            <div class="card">
+                <h3>Introducción a la Programación (A)</h3>
+                <p>Primeros pasos en programación, variables, estructuras de control y algoritmos sencillos.</p>
+            </div>
+            <div class="card">
+                <h3>Lógica y Pensamiento Crítico (A)</h3>
+                <p>Desarrollo de habilidades de razonamiento lógico y análisis crítico aplicado a problemas informáticos.</p>
+            </div>
+            <div class="card">
+                <h3>Matemática Discreta (A)</h3>
+                <p>Fundamentos de matemática discreta: conjuntos, relaciones, combinatoria y grafos.</p>
+            </div>
+            <div class="card">
+                <h3>Matemáticas para la Ingeniería I (A)</h3>
+                <p>Matemáticas aplicadas a ingeniería: álgebra, cálculo diferencial e integral.</p>
+            </div>
+        </div>
     </section>
 </main>
 
