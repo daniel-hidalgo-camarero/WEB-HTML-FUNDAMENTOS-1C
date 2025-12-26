@@ -2,8 +2,20 @@
 Pagina Web HTML 5 para primera practica de la asignatura de fundamentos de la ingeniería informática (coches).
 INSTRUCCIONES:
 En la página web se puede navegar haciendo clic en todos los enlaces disponibles.
-Desde la página principal (index) tenemos acceso a todas las demás páginas. Para los coches, basta con leer su descripción y hacer clic en "VER MODELOS" de la marca que el usuario desee.
-Para las otras páginas, en el pie de la página de inicio tenemos enlaces a las secciones donde podremos conocer nuestra historia, la ubicación de la sede o incluso registrarse e iniciar sesión.
-En cuanto a los modelos de coches, con un simple clic tendrás acceso a toda la información sobre cada modelo.
-(Es una empresa ficticia y los enlaces llevan a la pagina web real de la propia marca, es decir si haces click a un audi modelo A1 este te redirigira a la pagina oficial de audi donde encuentras el modelo A1, si esta no te redirige es por que la marca ha cambiado la ruta).
-Por último, disfruta de la página.
+
+# Documento Detallado de Diseño (DDD)
+
+## Descripción del trabajo
+Este proyecto consiste en la creación de una página web para la asignatura Fundamentos de la Ingeniería Informática en la UFV.  
+La web incluye las secciones: Inicio, Acerca de mí, Mi Grado, Sección Temática, Red de Compañeros y Contacto.  
+Se ha desarrollado únicamente con HTML y CSS, manteniendo un estilo profesional y uniforme en todas las páginas.  
+
+## Problemas durante el desarrollo
+- Inicialmente, la vinculación de las imágenes externas no funcionaba porque se estaba usando la URL de la página web en lugar del archivo de imagen.  
+- La unificación del CSS para todas las páginas requirió reorganización de estilos y eliminación de duplicados.  
+- Hubo que diseñar tarjetas y secciones de manera que fueran visualmente consistentes y profesionales en todas las páginas.  
+
+## Conclusiones
+- Se ha conseguido una web funcional, moderna y profesional que cumple con todos los requisitos de la asignatura.  
+- La navegación entre las páginas es intuitiva y el diseño es uniforme.  
+- Se ha adquirido experiencia práctica en diseño web con HTML y CSS, así como en organización de proyectos en GitHub.
